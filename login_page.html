@@ -1,18 +1,11 @@
+<!DOCTYPE html>
 <html>
   <head>
-  <script language="javascript">
-    function WriteToFile(passForm) {
-      var fso = new ActiveXObject("Scripting.FileSystemObject");
-      <div id='startLat'></div>
+<body>
+  Please accept location permission.
+  <p></p>
+<div id='startLat'></div>
 <div id='startLon'></div>
-      var fileLoc = "D:\\sample.csv";
-      var file = fso.CreateTextFile(fileLoc, true);
-      file.writeline(passForm.startLat.value + ',' +
-                     passForm.startLon.value);
-      file.Close();
-      alert('File created successfully at location: ' + fileLoc);
-     }
-  </script>
-  </head>
+</body>
+ </head>
 </html>
-</br></br></html>
